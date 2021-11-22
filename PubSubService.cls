@@ -4,7 +4,7 @@
 public with sharing class PubSubService {
     private PubSubService() { }
 
-    static Set<IHandleMessages>  incommingSubScriptions = new Set<IHandleMessages>();
+    Set<IHandleMessages>  incommingSubScriptions = new Set<IHandleMessages>();
 
     /**
      * @description A singleton for service interaction.
